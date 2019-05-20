@@ -12,10 +12,17 @@ function oterDataDeTimestamp() {
 function obterCampoDoJSON() {
   MOEDA=$1
   CAMPO=$2
-  echo $(jq $JQ_OUTPUT .$MOEDA$CAMPO)
+  JSON=$3
+  echo $(echo $JSON | jq $JQ_OUTPUT .$MOEDA$CAMPO)
 }
 
 function imprimirDadosCotacao() {
+  MOEDA=$1
+  JSON=$2
+
+  COTACAO_NAME=$(obterCampoDoJSON $MOEDA $JQ_EXPR_NAME $JSON)
+  COTACAO_CODE=$(obterCampoDoJSON )
+
   echo $SAIDA_CONSOLE <<EOF
 Valor moeda:
 
