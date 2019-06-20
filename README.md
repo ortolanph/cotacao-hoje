@@ -9,21 +9,18 @@ Um projeto para exibir cotações das principais moedas na linha de comando do l
 | `USD` | Dólar Comercial | `dolar-hoje.sh` | Sim |
 | `USDT` | Dólar Turismo | `dolar-turismo-hoje.sh` | Sim |
 | `EUR` | Euro | `euro-hoje.sh` | Sim |
-
-Ainda por fazer: 
-* CAD-BRL (Dólar Canadense)
-* AUD-BRL (Dólar Australiano)
-* EUR-BRL (Euro)
-* GBP-BRL (Libra Esterlina)
-* ARS-BRL (Peso Argentino)
-* JPY-BRL (Iene Japonês)
-* CHF-BRL (Franco Suíço)
-* CNY-BRL (Yuan Chinês)
-* YLS-BRL (Novo Shekel Israelense)
-* BTC-BRL (Bitcoin)
-* LTC-BRL (Litecoin)
-* ETH-BRL (Ethereum)
-* XRP-BRL (Ripple)
+| `CAD` | Dólar Canadense | `dolar-canadense-hoje.sh` | Sim |
+| `AUD` | Dólar Australiano | `dolar-australiano-hoje.sh` | Sim |
+| `GBP` | Libra Esterlina | `libra-hoje.sh` | Sim |
+| `ARS` | Peso Argentino | `peso-argentino-hoje.sh` | Sim |
+| `JPY` | Iene Japonês | `iene-hoje.sh` | Sim |
+| `CHF` | Franco Suíço | `franco-hoje.sh` | Sim |
+| `CNY` | Yuan Chinês | `yuan-hoje.sh` | Sim |
+| `YLS` | Novo Shekel Israelense | `shekel-hoje.sh` | Problemas na fonte de dados |
+| `BTC` | Bitcoin | `bitcoin-hoje.sh` | Sim |
+| `LTC` | Litecoin | `litecoin-hoje.sh` | Sim |
+| `ETH` | Ethereum | `ethereum-hoje.sh` | Sim |
+| `XRP` | Ripple | `ripple-hoje.sh` | Sim |
 
 ## Fonte de dados
 
